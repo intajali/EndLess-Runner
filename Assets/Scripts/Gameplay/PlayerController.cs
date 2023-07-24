@@ -36,6 +36,7 @@ public class PlayerController : MonoBehaviour
         if (isGrounded && velocity.y < 0)
         {
             velocity.y = 0;
+            Debug.Log("Player is Grounded");
         }
         else
         {
